@@ -9,6 +9,7 @@ function withGH(uri: string): string {
 export default defineConfig({
   base: withGH(""),
   publicPath: withGH(""),
+  exportStatic: {},
   locales: [
     { id: "en-US", name: "English" },
     { id: "zh-CN", name: "中文" },
