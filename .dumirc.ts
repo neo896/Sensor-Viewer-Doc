@@ -2,7 +2,7 @@ import { defineConfig } from "dumi";
 import { defineThemeConfig } from "dumi-theme-chakra";
 
 function withGH(uri: string): string {
-  const prefix = process.env.gh ? "/Sensor-Viewer/" : "/";
+  const prefix = process.env.gh ? "/Sensor-Viewer-Doc/" : "/";
   return [prefix, uri].join("");
 }
 
