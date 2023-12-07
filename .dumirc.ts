@@ -1,14 +1,9 @@
 import { defineConfig } from "dumi";
 import { defineThemeConfig } from "dumi-theme-chakra";
 
-function withGH(uri: string): string {
-  const prefix = process.env.gh ? "/Sensor-Viewer-Doc/" : "/";
-  return [prefix, uri].join("");
-}
-
 export default defineConfig({
-  base: withGH(""),
-  publicPath: withGH(""),
+  base: "/Sensor-Viewer-Doc/",
+  publicPath: "/Sensor-Viewer-Doc/",
   exportStatic: {},
   locales: [
     { id: "en-US", name: "English" },
@@ -18,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     nprogress: false,
     name: "Sensor-Viewer",
-    logo: withGH("logo.png"),
+    logo: "/logo.png",
     ...defineThemeConfig({
       helmetIcon: "🍺",
       settingPanelVisible: true,
