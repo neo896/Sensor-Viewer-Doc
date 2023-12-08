@@ -13,7 +13,7 @@ export default defineConfig({
   themeConfig: {
     nprogress: false,
     name: "Sensor-Viewer",
-    logo: "/logo.png",
+    logo: "/Sensor-Viewer-Doc/logo.png",
     ...defineThemeConfig({
       helmetIcon: "🍺",
       settingPanelVisible: true,
