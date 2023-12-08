@@ -25,7 +25,7 @@ export default defineConfig({
       social: {
         github: {
           name: "dumi-theme-chakra",
-          link: "https://github.com/innocces/dumi-theme-chakra",
+          link: "https://github.com/neo896/Sensor-Viewer.git",
         },
       },
       announcementBar: {
