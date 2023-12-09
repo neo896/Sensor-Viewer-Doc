@@ -7,16 +7,21 @@ group:
   order: -1
 ---
 
-# What is Sensor-Viewer
+# Why Sensor-Viewer
 
-Currently, when we get the installation parameters of the sensors on the car, often we need to convert the raw data to rosbag data, and then we can preview it through rviz in order to know or check if the parameters are correct.
-Sensor-Viewer is a cross-platform, light and fast sensor position visualization tool, no ros environment, we just need to fill in the parameters or import configuration files, you can visualize the sensor position, at the same time, through the transform transformation, we can know the tf information between any two points!
+Sensor-Viewer is a light, fast, cross-platform tool for visualizing sensor extrinsic parameters.
+
+When we have some calibration parameters of vehicle sensors, we can use this tool to quickly preview and verify the sensor position, and at the same time can perform transformation calculation.
+
+Ros is a set of software libraries and tools that help you build robot applications, We can play rosbag and use the rviz visualization tool to get a preview of the sensor's position. Sensor-Viewer doesn't depend on a ros environment, it takes seconds to install, you can run it on Windows, Linux and MacOS , and of course it's fast, and the results are the same as those seen in rviz!
+
+<img src='/Sensor-Viewer-Doc/showcase.png' >
 
 ## Feature
 
 The Sensor-Viewer has the following features:
 
-- Supports adding, editing, checking, location preview, hiding/showing of vehicle sensors
+- Supports adding, editing, checking, location preview and hide/show sensors
 - Support any sensor and reference point for transform calculation
 - Support `Euler` and `Quaternion` rotation methods
 - Supports sensor configuration file import and export

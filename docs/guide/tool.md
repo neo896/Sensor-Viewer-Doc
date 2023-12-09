@@ -7,12 +7,14 @@ group:
 
 # ToolBox
 
-The grid area has a suspended component called ToolBox, can be used for position calculation and model export
+The grid area has a suspended component called ToolBox, can be used for position calculation and model export.
+
+<img src='/Sensor-Viewer-Doc/toolbox.png' width='25%'>
 
 ## Tansform Calculate
 
 Choose the sensor and reference point and click `TF Calculate`, default rotation uses quaternions, and you will see the tansform result, so simple!
-You can copy the result use the `copy button` next to the `TF Calculate`
+You can copy the result use the `copy button` next to the `TF Result`.
 
 ## Model Export
 

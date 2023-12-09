@@ -19,8 +19,8 @@ export default defineConfig({
       settingPanelVisible: true,
       thumbBackground: true,
       description:
-        "A Light, Fast and Cross-Platform Sensor Position Visualization Tool Based On Transforms",
-      keywords: ["Transforms", "Tauri", "Cross-Platform"],
+        "A Light, Fast, Cross-Platform Sensor Extrinsic Parameters Visualization Tool",
+      keywords: ["Extrinsics", "Tauri", "Cross-Platform", "Calibration"],
       author: "qqkkwana@gmail.com",
       social: {
         github: {

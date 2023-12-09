@@ -14,7 +14,9 @@ group:
 3. Input sensor's position parameter and push `Create Sensor` button to add sensor
 4. Push `save` button and preview
 
-You can export your sensor configuration to the standard yaml format by using the bubble button in the bottom right corner and clicking on the Export button!You can also use the shortcut `Shift+Ctr+S`
+You can export your sensor configuration to the standard yaml format by using the bubble button in the bottom right corner and clicking on the Export button!You can also use the shortcut `Shift+Ctr+S`.
+
+<img src='/Sensor-Viewer-Doc/add-sensor.png' width='25%'>
 
 ## Import via configuration file
 
@@ -49,6 +51,6 @@ You can import sensor by configuration file, we define a yaml standard file, you
       w: 0.50262333596
 ```
 
-- the `frame_id` and `reference_frame_id`: if `frame_id` is A and `reference_frame_id` is B, it means that if the position of B is known, then A is transformed to get the new position
-- `sensor_type`: the type of the sensor, including `Camera`, `Lidar`, `Radar` and `IMU/GNSS`, if the name is not one of these four, the sensor list icon will not be displayed
-- `transform`: including translation and rotation, and for rotation, you can use Euler(`yaw`, `pitch`, `roll`) order is 'XYZ' or Quaternion(x, y, z, w)
+- the `frame_id` and `reference_frame_id`: if `frame_id` is A and `reference_frame_id` is B, it means that if the position of B is known, then A is transformed to get the new position.
+- `sensor_type`: the type of the sensor, including `Camera`, `Lidar`, `Radar` and `IMU/GNSS`, if the name is not one of these four, the sensor list icon will not be displayed.
+- `transform`: including translation and rotation, and for rotation, you can use Euler(`yaw`, `pitch`, `roll`) order is 'XYZ' or Quaternion(x, y, z, w).
