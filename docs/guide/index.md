@@ -17,7 +17,7 @@ Ros is a set of software libraries and tools that help you build robot applicati
 
 <img src='/Sensor-Viewer-Doc/showcase.png' >
 
-## Feature
+## Features
 
 The Sensor-Viewer has the following features:
 

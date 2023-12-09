@@ -13,7 +13,7 @@ hero:
       link: https://github.com/neo896/Sensor-Viewer
 
 features:
-  - title: Light, fast and cross-platform
+  - title: Light, Fast and Cross-Platform
     description: Powered by rust tauri, support Windows, Linux and MacOS
     icon: /Sensor-Viewer-Doc/flash.svg
   - title: Sensor Management

@@ -1,7 +1,7 @@
 ---
 hero:
   title: Sensor-Viewer
-  description: 轻便、快速、跨平台的传感器外参可视化工具
+  description: 轻量、快速、跨平台的传感器外参可视化工具
 
   actions:
     - text: 下载
