@@ -31,7 +31,7 @@ export default defineConfig({
       announcementBar: {
         id: "New Release",
         content:
-          "Now Sensor-Viewer has released version 0.4.0!  现在Sensor-Viewer发布了0.4.0版本!",
+          "Now Sensor-Viewer has released version 0.4.1!  现在Sensor-Viewer发布了0.4.1版本!",
         isCloseable: true,
       },
     }),
