@@ -5,7 +5,7 @@ hero:
   actions:
     - text: Download
       link: https://github.com/neo896/Sensor-Viewer/releases/
-    - text: Online Demo
+    - text: Try Online
       link: https://sensor-viewer-demo.vercel.app/
     - text: Get Started
       link: /guide
