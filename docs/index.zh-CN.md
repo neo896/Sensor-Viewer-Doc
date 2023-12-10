@@ -6,7 +6,8 @@ hero:
   actions:
     - text: 下载
       link: https://github.com/neo896/Sensor-Viewer/releases/
-      openExternal: true,
+    - text: 在线体验
+      link: https://sensor-viewer-demo.vercel.app/
     - text: 查看文档
       link: /guide
     - text: GitHub
